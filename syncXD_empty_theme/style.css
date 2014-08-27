@@ -1,0 +1,45 @@
+/*
+Theme Name: sync:XD
+Author: Shon L. Burns, shonlb@syncxd.com
+Author URI: http://syncxd.com/
+Description: Based off WordPress 2014. Includes styles for Twitter Bootstrap, JQuery UI and JQuery Masonry. This theme also provides the style definitions for the skin manager, a custom ui for applying alternate themes at the category level within the active theme.
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats,  sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: syncXD
+
+This theme, like WordPress, is licensed under the GPL.
+
+Note: CSS files are enqueued. Make style customizations and overrides to skin.css. Edit print.css directly.
+These styles are imported into editor-style.css.
+
+
+/**
+ * Table of Contents:---------------------------------------------------------
+**/
+
+
+/** 1.0 - Reset  
+@import url("css/reset.css") ;
+
+/** 2.0 - Fixed styles  
+@import url("css/fixed.css");
+
+/** 3.0 - WP Structure  
+@import url("css/wp.css");
+
+/** 4.0 - Grid ' Media Queries  
+@import url("css/grid.css");
+@import url("css/grid-custom.css");/* edit to add custom styles to default media queries */
+
+/** 5.0 - CSS Frameworks  
+@import url("css/bootstrap.css");
+@import url("css/bootstrap-carousel-extenders.css");/* edit this file to add custom styles for bootstrap carousel */
+
+/** 6.0 - Skin Parameters  
+@import url("css/skin.css");/* edit this file to make any style customizations or overrides */
+
+/** 7.0 - Print  
+@import url("css/print.css") print;
+/** -----------------------------------------------------------------------------*/

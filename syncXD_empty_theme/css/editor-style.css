@@ -1,0 +1,35 @@
+
+
+/** -- Theme Styles --------------------------------------- **/
+/** 1.0 - Reset  **/
+@import url("reset.css") ;
+
+/** 2.0 - Fixed styles  **/
+@import url("fixed.css");
+
+/** 3.0 - WP Structure  **/
+@import url("wp.css");
+
+/** 4.0 - Grid ' Media Queries  **/
+@import url("grid.css");
+
+/** 5.0 - CSS Frameworks  **/
+@import url("bootstrap.css");
+@import url("css/bootstrap-carousel-extenders.css");
+
+/** 6.0 - Skin Parameters  **/
+@import url("skin.css");
+
+/** 7.0 - Print  **/
+@import url("print.css") print;
+
+/** --editor-- **/
+body.mce-content-body{
+	padding:6px;background-color:#ffffff;
+}
+.wp-editor-container{
+	width:100%!important;
+}
+.e_buttons{
+	display:none;background-color:#f7f7f7; border-color: #ccc;box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, 0.08); color: #555; vertical-align: top;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;margin: 0 6px 0 0;font-size:13px;
+}
