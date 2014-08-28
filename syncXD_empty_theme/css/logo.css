@@ -1,0 +1,45 @@
+/**----------------------------------------------------------------
+Styles for branding the admin areas
+**/
+
+#login h1 a { 
+	background-image: url("../images/logo.png") !important;
+	background-size:contain!important;
+	background-position: center!important;
+	width: 320px!important;
+	height: 90px !important;
+	margin-bottom:50px;
+	}
+	
+ #adminmenuwrap { 
+ 	background-image: url("../images/logo.png") !important;
+ 	background-position: center 15px;
+ 	background-repeat: no-repeat;
+ 	background-size:150px;
+ 	padding-top:80px;
+  }	
+  
+  #menu-posts,#menu-dashboard,#menu-appearance{
+  	border-top:2px solid silver!important;
+  	padding-bottom:0px!important;
+  	margin-bottom:-8px!important;
+  }
+  
+  #menu-media,#menu-settings{
+  	border-top:1px solid silver!important;
+  	margin-top:8px!important;
+  }
+  
+  #menu-media,#menu-posts{
+  	padding-top:8px!important;
+  }
+  
+  #menu-comments{
+  	border-bottom:2px solid silver!important;
+  	padding-bottom:8px!important;
+  	margin-bottom:8px!important;
+  }
+  
+ .e_buttons{
+	display:none;background-color:#f7f7f7; border-color: #ccc;box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, 0.08); color: #555; vertical-align: top;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;margin: 0 6px 0 0;font-size:13px;
+}
