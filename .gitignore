@@ -13,6 +13,12 @@ sitemap.xml.gz
 wp-config.php
 
 # =========================
+# Aptana Studio
+# =========================
+
+.project
+
+# =========================
 # Operating System Files
 # =========================
 
@@ -24,7 +30,8 @@ wp-config.php
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
+
 
 # Thumbnails
 ._*
